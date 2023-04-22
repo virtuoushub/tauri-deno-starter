@@ -1,3 +1,33 @@
+```sh
+rustup target add x86_64-apple-darwin
+```
+
+https://www.gitpod.io/docs/introduction/languages/deno
+https://tauri.app/v1/guides/getting-started/prerequisites/#setting-up-linux
+```sh
+sudo apt update
+sudo apt install libwebkit2gtk-4.0-dev \
+    build-essential \
+    curl \
+    wget \
+    libssl-dev \
+    libgtk-3-dev \
+    libayatana-appindicator3-dev \
+    librsvg2-dev
+```
+
+---
+
+## stale
+
+```sh
+sudo apt update
+sudo apt install libdbus-1-dev pkg-config
+sudo apt install libgtk-3-dev
+```
+
+---
+
 # Deno 🦕 + Tauri
 
 Starter template for Tauri, bundling the frontend made with React using Deno with esbuild.
